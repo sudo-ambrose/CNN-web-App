@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 #load model
-model = tf.keras.models.load_model('/Users/ambrose/Desktop/Iron Hack/bootcamp/W3/Big project/model_name.keras')
+model = tf.keras.models.load_model('model_nameg.keras')
 
 # class names
 class_names = ["Airplane", "Cute automobile", "Cute Bird", "Kitty", "Deer", 
